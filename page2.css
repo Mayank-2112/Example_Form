@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;   
+}
+body{
+    background-color:#B9E0FF;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 2px;    
+    height:auto;
+    margin: auto;
+    width:40%;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #8D9EFF;
+    position:relative;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],textarea{
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius:5px;
+    resize:vertical;
+    margin-top: 8px ;
+    margin-bottom: 6px;
+    margin-left: 30 px;
+}
+select{
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius:5px;
+    resize:vertical;
+    margin-top: 6px ;
+    margin-bottom: 6px;
+    
+}
+.butt{
+    background-color: #8D72E1;
+    color: black;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    margin: 25px;
+    
+}
+.but{
+    background-color: #8D72E1;
+    color: black;
+    height: 30px;
+    border-radius: 5px;
+    margin: 15px;
+    
+}
+.butt:hover,.but:hover{
+    background-color: #6C4AB6;
+}
+
+
